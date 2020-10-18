@@ -46,6 +46,24 @@ public abstract class Automovil {
         }
     }
 
+    /*
+    public Automovil3(String ad1, String ad2, String ad3, String ad4, String ad5) {
+        ad1 = ad1 != null ? ad1 : 0;
+        ad2 = ad2 != null ? ad2 : 0;
+        ad3 = ad3 != null ? ad3 : 0;
+        ad4 = ad4 != null ? ad4 : 0;
+        ad5 = ad5 != null ? ad5 : 0;
+    }
+
+    public Automovil4(String ad1, String ad2, String ad3, String ad4, String ad5) {
+       String ad1 = ad1.length > 0 ? ad1[0] : 0;
+       String ad2 = ad2.length > 0 ? ad2[0] : 0;
+       String ad3 = ad3.length > 0 ? ad3[0] : 0;
+       String ad4 = ad4.length > 0 ? ad4[0] : 0;
+       String ad5 = ad5.length > 0 ? ad5[0] : 0;
+    }
+    */
+
     public void agregarAdicional(String unAdicional){
         adicionales.add(unAdicional);
     }
