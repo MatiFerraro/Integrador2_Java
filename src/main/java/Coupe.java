@@ -4,4 +4,10 @@ public class Coupe extends Automovil{
     public Coupe(){
 
     }
+
+    @Override
+    public Float calcularCosto(){
+        super.calcularCosto();
+        return null;
+    }
 }

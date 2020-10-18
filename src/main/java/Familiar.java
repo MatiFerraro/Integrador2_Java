@@ -4,4 +4,10 @@ public class Familiar extends Automovil{
     public Familiar(){
 
     }
+
+    @Override
+    public Float calcularCosto(){
+        super.calcularCosto();
+        return null;
+    }
 }

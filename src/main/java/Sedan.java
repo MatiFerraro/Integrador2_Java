@@ -4,4 +4,10 @@ public class Sedan extends Automovil{
     public Sedan(){
 
     }
+
+    @Override
+    public Float calcularCosto(){
+        super.calcularCosto();
+        return null;
+    }
 }

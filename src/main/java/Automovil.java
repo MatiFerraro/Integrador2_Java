@@ -29,7 +29,7 @@ public abstract class Automovil {
             for(int i = 0; i < 5; i++){
                 adicAux = adicionales.get(i);
                 costoAux = adicionalesCosto.get(adicAux);
-                costoFinal += costoAux;
+                costoFinal = costoFinal + costoAux;
             }
         }
         return costoFinal;
