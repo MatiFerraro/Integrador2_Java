@@ -1,16 +1,25 @@
-public class Coupe extends Automovil2{
+public class Coupe extends Automovil{
     // Chequear version de Automovil
 
 
     private Float precioBase = 270000f;
 
-    public Coupe(String ad1, String ad2, String ad3, String ad4, String ad5){
-        super(ad1, ad2, ad3, ad4, ad5);
+    public Coupe(){
+        super();
     }
 
     @Override
     public Float calcularCosto(){
-        Float costoTotal = super.calcularCosto();
-        return costoTotal;
+        String adicAux;
+        Float costoAux = 0f;
+        if(adicionales.size() > 0){
+            for(int i = 0; i < adicionales.size(); i++){
+                adicAux = adicionales.get(i);
+                costoAux += costoAdicionales.get(adicAux);
+            }
+            costoAux += precioBase;
+            return costoAux;
+        }
+        return precioBase;
     }
 }

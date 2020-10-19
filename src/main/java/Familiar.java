@@ -1,16 +1,23 @@
-public class Familiar extends Automovil2{
-    // Chequear version de Automovil
-
+public class Familiar extends Automovil{
 
     private Float precioBase = 245000f;
 
-    public Familiar(String ad1, String ad2, String ad3, String ad4, String ad5){
-        super(ad1, ad2, ad3, ad4, ad5);
+    public Familiar(){
+        super();
     }
 
     @Override
     public Float calcularCosto(){
-        Float costoTotal = super.calcularCosto();
-        return costoTotal;
+        String adicAux;
+        Float costoAux = 0f;
+        if(adicionales.size() > 0){
+            for(int i = 0; i < adicionales.size(); i++){
+                adicAux = adicionales.get(i);
+                costoAux += costoAdicionales.get(adicAux);
+            }
+            costoAux += precioBase;
+            return costoAux;
+        }
+        return precioBase;
     }
 }
