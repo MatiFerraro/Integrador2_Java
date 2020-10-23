@@ -23,4 +23,5 @@ public abstract class Automovil {
     }
 
     public abstract Float calcularCosto();
+
 }

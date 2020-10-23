@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String args[]){
 
         Coupe miCoupe = new Coupe();
@@ -19,4 +20,5 @@ public class Main {
         System.out.println("Sedan full: $" + miSedan.calcularCosto());
         System.out.println("Familiar sin nada: $" + miFamiliar.calcularCosto());
     }
+
 }
