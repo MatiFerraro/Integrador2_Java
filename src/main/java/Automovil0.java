@@ -3,6 +3,11 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
 
+    /* Main de Automovil0
+        Automovil0 miCoupe = new Automovil0("Coupe", "TC");
+        Automovil0 miOtroCoupe = new Automovil0("Coupe", "TC", "AA", "ABS", "AB", "LL");
+     */
+
 public class Automovil0 {
     // Paso variante de auto y adicionales en el constructor
     // Automovil0 NO es clase abstracta

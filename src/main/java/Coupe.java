@@ -1,6 +1,4 @@
 public class Coupe extends Automovil{
-    // Chequear version de Automovil
-
 
     private Float precioBase = 270000f;
 

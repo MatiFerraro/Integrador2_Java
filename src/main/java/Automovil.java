@@ -4,12 +4,7 @@ import java.util.Map;
 import java.util.HashMap;
 
 public abstract class Automovil {
-    // Uso metodo agregarAdicional
-    // Automovil es clase abstracta
-    // Funciona con menos parámetros
 
-
-    protected Float precioBase;
     protected List<String> adicionales;
     Map<String, Float> costoAdicionales = new HashMap<String, Float>(){{
         put("TC", 12000f);

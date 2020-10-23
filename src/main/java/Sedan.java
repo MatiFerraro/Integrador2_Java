@@ -1,8 +1,4 @@
 public class Sedan extends Automovil{
-    // Uso metodo agregarAdicional
-    // Automovil es clase abstracta
-    // Funciona con menos parámetros
-
 
     private Float precioBase = 230000f;
 
